@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Coupon Finder</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/foundation.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
   </head>
 
   <header>
@@ -11,35 +13,60 @@
 <!--
 In body: 
 
-Navbar: Page reset, subscriber's login area, links to: ?, 
-
-Three columns--
-  First with search button, form for entering a city, list of cities?
-
-  Second is the field for results to populate
-
-  Third has seach button and input form for filtering by store/brand
-
 
 
 -->
+<ul class="horizontal menu">
+  <li><a href="#">Home Page</a></li>
+  <li><a href="#">Reset</a></li>
+  <li><a href="#">Login</a></li>
+  <li><a href="#">Contact Us</a></li>
+</ul>
 
 
-  <body>
-    <div class="row">
-      <col-md-4>
-        <button search></button>
-        <form>Search</form>
-        <button id="btnSubmit">Search Coupons</button>
-        <button id="btnStore">Store Locator</button>
-      </col-md-4>
-      <col-md-4>
-        <div class="results"></div>
-      </col-md-4>
-      <col-md-4>
-        <button cities></button>
-      </col-md-4>
+
+   <body>
+
+
+    <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell medium-6 large-4 frame">Search by City
+          <button id="btnSubmit">Search Coupons</button>
+          <form>
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                <div class="medium-6 cell">
+                  <label>
+                    <input type="text" placeholder="Search for City">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      
+
+        <div class="cell medium-6 large-4 frame">Results</div>
+
+
+        <div class="cell medium-6 large-4 frame">Search by Brand
+          <form>
+            <button id="btnStore">Store Locator</button>
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                <div class="medium-6 cell">
+                  <label>
+                    <input type="text" placeholder="Search for Brand">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
     </div>
+
   </body>
 
   <footer>
