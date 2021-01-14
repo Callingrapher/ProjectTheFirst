@@ -41,16 +41,19 @@ $(document).ready(function () {
 
     function storeLocator(){
         //  Store API key
-        var storeKey = "T1peEznndyQicqT0mnuGmOLI0QxBfAV";
+        var storeKey = "QT1peEznndyQicqT0mnuGmOLI0QxBfAV";
 
         // QueryURL
-        var storeQueryURL = "https://api.tomtom.com/map/1/tile/basic/main/0/0/0.png?view=Unified" + storeKey;
+        var storeQueryURL = "https://api.tomtom.com/search/2/search/pizza.json?lat=37.337&lon=-121.89&key=" + storeKey;
 
         $.ajax({
             url: storeQueryURL,
             method: "GET"
         }).then(function (response) {
-            
+            console.log(response);
         });
     };
+    $("#btnStore").click(function() {
+        storeLocator();
+    });
 });
