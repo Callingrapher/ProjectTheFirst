@@ -1,0 +1,24 @@
+* {
+
+}
+
+header {
+    background-color: rgb(245, 197, 67);
+    border: solid black 1px;
+}
+
+grid-container {
+    background-color: rgb(120, 243, 167);
+    border: solid black 1px;
+}
+
+#wrapper {
+    background-color: rgb(120, 243, 167);
+    border: solid black 1px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(164, 210, 250);
+    border: solid black 1px;
+}
