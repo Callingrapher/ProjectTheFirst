@@ -56,6 +56,7 @@ $(document).ready(function () {
 
     function storeLocator(store){
         //  Store API key
+
         // var storeKey = "T1peEznndyQicqT0mnuGmOLI0QxBfAV";
         var storeKey = "QT1peEznndyQicqT0mnuGmOLI0QxBfAV";
 
@@ -66,6 +67,7 @@ $(document).ready(function () {
         var storeQueryURL = "https://api.tomtom.com/search/2/search/"+storeName+".json?lat="+lat+"&lon="+lon+"&key=" + storeKey;
         // var storeQueryURL = "https://api.tomtom.com/search/2/search/walmart.json?key="+storeKey;
 
+
         // nearby Search
         // var storeQueryURL = "https://api.tomtom.com/search/2/nearbySearch/.json?lat="+lat+"&lon="+lon+"&key="+storeKey;
         $.ajax({
@@ -75,6 +77,7 @@ $(document).ready(function () {
             console.log(response);
         });
     };
+
 
     // var x=$("#demo");
     // $("#btnLocation").click(function(){
@@ -94,4 +97,5 @@ $(document).ready(function () {
         lon=position.coords.longitude;
         // x.html("Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude);
     };
+
 });
