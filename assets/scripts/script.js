@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    // Latitude and longitude coordinates start at zero, then getLocation() is called
     var lat=0;
     var lon=0;
     getLocation();
@@ -45,10 +45,12 @@ $(document).ready(function () {
 
     };
     
+    // When the Search Coupons button is clicked, getCoupon() is called
     $("#btnSubmit").click(function(){
         getCoupon();
     });
 
+    // When the results div is clicked, the data-store attributed is added
     $(".results").on("click",".store",function(){
         console.log("before call Function "+$(this).attr("data-store"));
         storeLocator($(this).attr("data-store"));
@@ -84,6 +86,7 @@ $(document).ready(function () {
     //     getLocation();
     // });
 
+    // If geolocation is supported by the browser, show the current location; otherwise, alert
     function getLocation() {
         if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition(showPosition);
@@ -92,10 +95,30 @@ $(document).ready(function () {
         };
     };
       
+    // Store the latitude and longitude coordinates
     function showPosition(position) {
         lat=position.coords.latitude;
         lon=position.coords.longitude;
         // x.html("Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude);
+    };
+
+    // Store the list of stores in local storage
+    function saveInStorage(store) {
+        var storeList = [];
+        // If a result is found, add it to the end of the array
+        storeList = JSON.parse(localStorage.getItem("store"));
+        if (!(storeList===null)) {
+            //data in localStorage
+            //adding the store at the end of the storeList array
+            storeList.push(store);
+            localStorage.setItem("store", JSON.stringify(storeList));
+        } else {
+            var newList=[];
+            // no data in localStorage
+            newList[0]=store;
+            localStorage.setItem("store", JSON.stringify(newList));  
+        };
+        
     };
 
 });
