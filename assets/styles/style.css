@@ -26,6 +26,8 @@ a{
 }
 
 section {
+    text-align: center;
+    font-size: 25px;
     display: inline-block;
     border: solid 2px grey;
     padding: 0px 10px;
