@@ -1,6 +1,5 @@
-
-/*Coupon Search Custom CSS*/
-html {
+html, 
+body{
     height:100%;
 }
 
@@ -9,12 +8,9 @@ body{
 }
 
 header {
+    font-family: 'PT Serif', serif;
     background-color: rgb(235, 199, 102);
     border: solid black 1px;
-}
-
-body {
-    height:100%;
 }
 
 h1, h2{
@@ -22,7 +18,9 @@ h1, h2{
     text-align: center;
 }
 
-p {
+p,
+h2 {
+    font-size: 24px;
     text-align: center;
 }
 
@@ -31,6 +29,8 @@ a{
 }
 
 section {
+    text-align: center;
+    font-size: 25px;
     display: inline-block;
     border: solid 2px grey;
     padding: 0px 10px;
@@ -39,6 +39,7 @@ section {
 }
 
 footer {
+    text-align: center;
     width: 100%;
     background-color: rgb(168, 203, 233);
     border: solid black 1px;
@@ -126,24 +127,24 @@ footer {
     padding-right: 370px;
     padding-bottom: 10px;
     color: gray; 
-   
 }
+
 h4{
     margin-bottom: -5px;
     font-size: 22px;
 }
 
-#rememberMe{
-display: inline-block;
+#rememberMe {
+  display: inline-block;
 }
 
 
-.fas fa-check{
+.fas fa-check {
     font-size: 60px;
    
 }
 
-button{
+button {
     border: 3px solid orange;
     background: grey;
     margin-top: 10px;
@@ -167,7 +168,6 @@ button{
     border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px;
 }
 
-
 .Message{
     border: 1px solid grey;font-size:16px;padding: 10px; padding-right:500px; color: lightgrey; margin-left: 20px;padding-bottom: 100px; margin-top: 10px; font-size: 22px;
 }
@@ -182,6 +182,7 @@ button{
     padding-bottom: 20px;
     margin-top: 20px;
 }
+
 .col-lg-12{
     padding-left: 10px;
     font-size: 22px;
@@ -200,6 +201,7 @@ button{
     margin-left: 200px;
     
 }
+
 #bg {
     position: fixed; 
     top: -50%; 
@@ -208,6 +210,7 @@ button{
     height: 200%;
     z-index:-1;
   }
+
   #bg img {
     position: absolute; 
     top: 0; 
