@@ -4,44 +4,90 @@
 
 =======
 /*Coupon Search Custom CSS*/
+html {
+    height:100%;
+}
 
 header {
-    background-color: rgb(245, 197, 67);
+    background-color: rgb(235, 199, 102);
     border: solid black 1px;
 }
 
-grid-container {
-    background-color: rgb(120, 243, 167);
-    border: solid black 1px;
+body {
+    height:100%;
 }
 
-footer {
-    width: 100%;
-    background-color: rgb(164, 210, 250);
-    border: solid black 1px;
-    margin-top: 350px;
-}
-
-h2 {
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 20px;
 }
 
 p {
     text-align: center;
 }
 
-#searchCity {
-    border: 2px solid orange;
+a{
+    color: black;
 }
 
-#Results {
-    border: 2px solid orange;
+section {
+    display: inline-block;
+    border: solid 2px grey;
+    padding: 0px 10px;
+    margin:10px;
+    height: 100%;
 }
 
-#searchByBrand {
-        border: 2px solid orange;
+footer {
+    width: 100%;
+    background-color: rgb(168, 203, 233);
+    border: solid black 1px;
+    float: bottom; 
+    margin-top: 350px;
+}
 
+.brand, .results, .city {
+    border: solid grey 2px;
+    background-color: rgb(214, 214, 185);
+    opacity: 90%;
+}
+
+.city {
+    float: left;
+    width: 25%; 
+}
+
+.results {
+    float: left;
+    width: 50%; 
+}
+
+.brand {
+    float: right;
+    width: 25%; 
+}
+
+.card {
+    color: black;
+    background-color:  rgb(157, 158, 157);
 }
 >>>>>>> 874a02f3d680209908030265c26cbb856760c4d1
 
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index:-1;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }

@@ -3,116 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>Coupon Finder</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/foundation.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
   </head>
 ​
   <header>
-    <h1>Find the best deals in a town near you!</h1>
+    <i class="far fa-eye" style=" font-size: 75px; color: rgb(167, 165, 165)"></i><h1>Find the best deals in a town near you!</h1>
   </header>
-<!--
-In body: 
--->
-<ul class="horizontal menu">
-  <li><a href="#">Home Page</a></li>
-  <li><a href="#">Reset</a></li>
-  <li><a href="#">Login</a></li>
-  <li><a href="#">Contact Us</a></li>
-</ul>
-
-
-
 
    <body>
 
-
-<ul class="horizontal menu">
-  <li><a href="#">Home Page</a></li>
-  <li><a href="#">Reset</a></li>
-  <li><a href="#">Login</a></li>
-  <li><a href="#">Contact Us</a></li>
-</ul>
-
-
-
-    <div class="grid-container">
-      <div class="grid-x">
-        <div class="cell medium-6 large-4 frame">Search by City
-          <button id="btnSubmit">Search Coupons</button>
-          <form>
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <div class="medium-6 cell">
-                  <label>
-                    <input type="text" placeholder="Search for City">
-                  </label>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-      
-
-
-        <div class="cell medium-6 large-4 frame results">Results</div>
-
-
-        <div class="cell medium-6 large-4 frame">Search by Brand
-          <form>
-            <button id="btnStore">Store Locator</button>
-
-   <body>
-
-
-    <div class="grid-container">
-      <div class="grid-x">
-        <div class="cell medium-6 large-4 frame">Search by City
-          <button id="btnSubmit">Search Coupons</button>
-          <form>
-
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <div class="medium-6 cell">
-                  <label>
-
-                    <input type="text" placeholder="Search for Brand">
-
-                    <input type="text" placeholder="Search for City">
-
-                  </label>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-
-        <div class="cell medium-6 large-4 frame">Results</div>
-
-
-        <div class="cell medium-6 large-4 frame">Search by Brand
-          <form>
-            <button id="btnStore">Store Locator</button>
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <div class="medium-6 cell">
-                  <label>
-                    <input type="text" placeholder="Search for Brand">
-                  </label>
-                </div>
-              </div>
-            </div>
-          </form>
-        </div>
-
-
-      </div>
+    <nav class="card">
+      <ul class="horizontal menu">
+        <li><a href="#">Home Page</a></li>
+        <li><a href="#">Reset</a></li> 
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+    <div id="bg">
+      <img src="assets/images/coupons.png">
     </div>
+
+    <section class="grid-container city">
+      <div class="grid-x">
+        <div class="cell medium-6 large-4 frame" >
+          <i class="fas fa-search-location" style="font-size:48px"></i><button id="btnSubmit">Search Coupons</button>
+          <form>
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                <div class="medium-6 cell">
+                  <label>
+                    <input type="text" placeholder="Search by City">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-container cell medium-6 large-4 frame results results"><i class="fas fa-list-alt" style="font-size:48px"></i>Results</section>
+
+    <section class="grid-container cell medium-6 large-4 frame brand">
+      <form>
+        <button id="btnStore"><i class="fas fa-store" style="font-size:48px"></i>Store Locator</button>
+          <div class="grid-container">
+            <div class="grid-x grid-padding-x">
+               <div class="medium-6 cell">
+                <label>
+                  <input type="text" placeholder="Search">
+                </label>
+              </div>
+            </div>
+          </div>
+      </form>
+    </section>
 
   </body>
 ​
   <footer>
-    <h2>Made with ❤️️ by Team 8</h2>
+    <h2>Made with ❤️️ (as well as blood, sweat, and tears) by Team 8</h2>
         <p>
             &copy; 2021 Team 8, all rights reserved.
         </p>

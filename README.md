@@ -38,9 +38,9 @@ A simple web app to retrieve data about coupons offered by chain stores in the c
 
 ## User Stories
 
-User Story #1: As a consumer, I want to search for coupons according to location so that I can find deals near me and shop local.
-User Story #2: As a consumer, I want to search for coupons according to store name so that I can save money at a given store.
-User Story #3: As a consumer, I want to search for coupons according to location and store name simultaneously so that I can find deals at a given store near me.
+* User Story #1: As a consumer, I want to search for coupons according to location so that I can find deals near me and shop local.
+* User Story #2: As a consumer, I want to search for coupons according to store name so that I can save money at a given store.
+* User Story #3: As a consumer, I want to search for coupons according to location and store name simultaneously so that I can find deals at a given store near me.
 
 
 ## Usage 
@@ -66,7 +66,11 @@ Collaborators: Imani Dillahunt [https://github.com/imanid-code]
 8 Coupons [https://www.8coupons.com/api/getapi]
 Tom Tom [https://developer.tomtom.com/maps-sdk-web-js-public-preview/tutorials-use-cases/store-locator]
 
-* If you followed tutorials, include links to those here as well.
+* Background image sourced from:  
+https://www.alamy.com/stock-photo-fake-coupon-background-all-coupons-were-created-by-the-photographer-30720942.html
+
+* Tutorials consulted: 
+With thanks to w3schools.com for guidelines on opacity, background images, and 
 
 
 ## License
