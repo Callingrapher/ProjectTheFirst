@@ -1,48 +1,75 @@
 
 /*Coupon Search Custom CSS*/
+html {
+    height:100%;
+}
 
 body{
     background-color: white
 }
 
 header {
-    background-color: rgb(245, 197, 67);
+    background-color: rgb(235, 199, 102);
     border: solid black 1px;
 }
 
-grid-container {
-    background-color: rgb(120, 243, 167);
-    border: solid black 1px;
+body {
+    height:100%;
+}
+
+h1, h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a{
+    color: black;
+}
+
+section {
+    display: inline-block;
+    border: solid 2px grey;
+    padding: 0px 10px;
+    margin:10px;
+    height: 100%;
 }
 
 footer {
     width: 100%;
-    background-color: rgb(164, 210, 250);
+    background-color: rgb(168, 203, 233);
     border: solid black 1px;
+    float: bottom; 
     margin-top: 350px;
 }
 
-h2{
-    text-align: center;
-    font-size: 20px;
+.brand, .results, .city {
+    border: solid grey 2px;
+    background-color: rgb(214, 214, 185);
+    opacity: 90%;
 }
 
-p{
-    text-align: center;
+.city {
+    float: left;
+    width: 25%; 
 }
 
-#searchCity {
-    border: 2px solid orange;
+.results {
+    float: left;
+    width: 50%; 
 }
 
-#Results {
-    border: 2px solid orange;
+.brand {
+    float: right;
+    width: 25%; 
 }
 
-#searchByBrand{
-   
-        border: 2px solid orange;
-
+.card {
+    color: black;
+    background-color:  rgb(157, 158, 157);
 }
 
 /*Log in styling*/
@@ -173,3 +200,21 @@ button{
     margin-left: 200px;
     
 }
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    z-index:-1;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
