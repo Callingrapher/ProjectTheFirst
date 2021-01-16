@@ -1,8 +1,10 @@
-/*Coupon Search Custom CSS*/
-
 html, 
 body{
     height:100%;
+}
+
+body{
+    background-color: white
 }
 
 header {
@@ -69,6 +71,135 @@ footer {
 .card {
     color: black;
     background-color:  rgb(157, 158, 157);
+}
+
+/*Log in styling*/
+
+.logincontainer{
+    border: 4px solid rgb(164, 210, 250);;
+    text-align: center;
+    color: orange;
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.loginbox{
+    font-size: 28px;
+}
+
+.loginBtn{
+    color: orange;
+    text-align: center;
+    border: 3px solid gray ;
+    background-color: gray;
+    padding: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 5px ;
+    margin-top: 20px;
+
+}
+.loginBtn2{
+    color: orange;
+    text-align: center;
+    border: 3px solid gray ;
+    background-color: gray;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 40px;
+    margin-bottom: 15px ;
+    margin-top: -35px
+}
+
+.Email{
+    border: 1px solid gray;
+    padding-right: 400px;
+    padding-bottom: 10px;
+    color: gray;
+    
+   
+}
+
+.Password{
+    border: 1px solid gray;
+    padding-right: 370px;
+    padding-bottom: 10px;
+    color: gray; 
+}
+
+h4{
+    margin-bottom: -5px;
+    font-size: 22px;
+}
+
+#rememberMe {
+  display: inline-block;
+}
+
+
+.fas fa-check {
+    font-size: 60px;
+   
+}
+
+button {
+    border: 3px solid orange;
+    background: grey;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Styling for contact.html*/
+
+.containerc{
+    background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px;background-color: white; width:850px; padding-bottom: 0px; margin-left:40px; font-size: 28px;
+}
+
+.contactbox{
+        color: rgb(164, 210, 250);
+}
+.Name{
+    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px; margin-top: 10px;
+}
+
+.Emailc{
+    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px;
+}
+
+.Message{
+    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:500px; color: lightgrey; margin-left: 20px;padding-bottom: 100px; margin-top: 10px; font-size: 22px;
+}
+
+
+#submit{
+    border: 1px solid grey; font-size: 20px; padding:20px; padding-right:20px; padding-top:10px; background-color: rgb(164, 210, 250); text-align: center; margin-top:10px; margin-left:10px;
+}
+
+.col-md-12{
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.col-lg-12{
+    padding-left: 10px;
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+#Submit{
+    background-color: rgb(164, 210, 250);
+    border: 3px solid rgb(164, 210, 250);
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    
 }
 
 #bg {

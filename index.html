@@ -15,7 +15,7 @@
     <i class="far fa-eye" style=" font-size: 75px; color: rgb(167, 165, 165)"></i>
     <h1>Find the best deals in a town near you!</h1>
   </header>
-
+  
    <body>
 
     <nav class="card">
@@ -31,14 +31,15 @@
     </div>
 
     <section class="grid-container city">
+    <div class="grid-container, frame">
       <div class="grid-x">
-        <div class="cell medium-6 large-4 frame" >
-          <i class="fas fa-search-location" style="font-size:48px"></i><button id="btnSubmit">Search Coupons</button>
+        <div class="cell medium-6 large-4" id="searchCity">Search by City
           <form>
             <div class="grid-container">
               <div class="grid-x grid-padding-x">
                 <div class="medium-6 cell">
                   <label>
+                    <input type="text" placeholder="Search for City">
                     <input type="text" placeholder="Search by City">
                   </label>
                 </div>
@@ -46,6 +47,27 @@
             </div>
           </form>
         </div>
+      
+​
+        <div class="cell medium-6 large-4 frame" id="Results">Results</div>
+​
+        <div class="cell medium-6 large-4" id="searchByBrand">Search by Brand
+          <form>
+            <div class="grid-container">
+              <div class="grid-x grid-padding-x">
+                <div class="medium-6 cell">
+                  <label>
+                    <input type="text" placeholder="Search for Brand">
+                  </label>
+                </div>
+              </div>
+            </div>
+          </form>
+      
+        </div>
+      </div>
+    </div>
+​
       </div>
     </section>
 
