@@ -39,11 +39,14 @@ section {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
     text-align: center;
     width: 100%;
     background-color: rgb(168, 203, 233);
     border: solid black 1px;
-    float: bottom; 
+    /* float: bottom;  */
     margin-top: 350px;
 }
 
@@ -51,6 +54,7 @@ footer {
     border: solid grey 2px;
     background-color: rgb(214, 214, 185);
     opacity: 90%;
+    height: 100%;
 }
 
 .city {
