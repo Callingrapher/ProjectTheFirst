@@ -77,6 +77,10 @@ footer {
     background-color:  rgb(157, 158, 157);
 }
 
+.storeLoc {
+    margin-left: 25%;
+}
+
 /*Log in styling*/
 
 .logincontainer{
