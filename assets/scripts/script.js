@@ -78,6 +78,20 @@ $(document).ready(function () {
             method: "GET"
         }).then(function (response) {
             console.log(response);
+            $(".storeLocRes").empty();
+            for (i=0;i<response.results.length;i++){
+                var div=$("<div>");
+                var address= $("<p>").text(response.results[i].address.freeformAddress);
+                var phone=$("<p>").text(response.results[i].poi.phone);
+                if (response.results[i].poi.url===undefined){
+                    var url=$("<p>").text("no link to the store");
+                } else {
+                    var url=$("<a>").attr("href","https://"+response.results[i].poi.url);
+                    url.attr("target","_blank").text("link to store");
+                };
+                div.append(address, phone, url);
+                $(".storeLocRes").append(div);
+            };
         });
     };
 
