@@ -164,6 +164,11 @@ button {
     display: inline-block;
 }
 
+#btnSubmit {
+    margin-left: 50px;
+    width: 260px;
+}
+
 /* Styling for contact.html*/
 
 .containerc{
