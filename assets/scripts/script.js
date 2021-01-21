@@ -29,7 +29,7 @@ $(document).ready(function () {
             //dynamically creating the DOM element and placing them in the DIV results
             console.log("AJAX: "+response);
             var divCoupon=$("<div>");
-            for (i=0;i<25;i++){
+            for (i=0;i<5;i++){
                 var div=$("<div>");
                 // create dynamic button with the store name, click event will be check with attribute DATA-STORE
                 var btn=$("<button>").text("store: "+response[i].store_name).attr("data-store",response[i].store_name).addClass("store");
@@ -42,7 +42,6 @@ $(document).ready(function () {
                 };
             $(".results").append(divCoupon);
         });
-
     };
     
     // When the Search Coupons button is clicked, getCoupon() is called
