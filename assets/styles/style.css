@@ -77,6 +77,11 @@ footer {
     margin-left: 25%;
 }
 
+.storeLocRes {
+    width: 90%;
+    height: 80%;
+}
+
 /*Log in styling*/
 
 .logincontainer{
