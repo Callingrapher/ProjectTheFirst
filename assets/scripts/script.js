@@ -84,10 +84,10 @@ $(document).ready(function () {
                 var address= $("<p>").text(response.results[i].address.freeformAddress);
                 var phone=$("<p>").text(response.results[i].poi.phone);
                 if (response.results[i].poi.url===undefined){
-                    var url=$("<p>").text("no link to the store");
+                    var url=$("<p>").text("No Website Available");
                 } else {
                     var url=$("<a>").attr("href","https://"+response.results[i].poi.url);
-                    url.attr("target","_blank").text("link to store");
+                    url.attr("target","_blank").text("Store Website");
                 };
                 div.append(address, phone, url);
                 $(".storeLocRes").append(div);
