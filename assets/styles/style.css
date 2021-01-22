@@ -61,7 +61,8 @@ footer {
 
 .results {
     float: left;
-    width: 50%; 
+    width: 50%;
+    overflow: scroll; 
 }
 
 .brand {
@@ -72,6 +73,7 @@ footer {
 .card {
     color: black;
     background-color:  rgb(157, 158, 157);
+    overflow: scroll;
 }
 
 .storeLoc {
@@ -81,6 +83,7 @@ footer {
 .storeLocRes {
     width: 90%;
     height: 80%;
+    overflow: scroll;
 }
 
 /*Log in styling*/
