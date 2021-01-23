@@ -96,6 +96,9 @@ $(document).ready(function () {
                     var url=$("<a>").attr("href","https://"+response.results[i].poi.url);
                     url.attr("target","_blank").text("Store Website");
                 };
+                div.addClass("storeAdr");
+                phone.addClass("storePhone");
+                url.addClass("storeUrl");
                 div.append(address, phone, url);
                 $(".storeLocRes").append(div);
                 
