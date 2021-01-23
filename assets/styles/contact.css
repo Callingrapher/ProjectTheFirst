@@ -9,11 +9,18 @@ header {
     font-family: 'PT Serif', serif;
     background-color: rgb(235, 199, 102);
     border: solid black 1px;
+    margin-top: -23px;
 }
-
+#loginhead{
+    font-family: 'PT Serif', serif;
+    background-color: rgb(235, 199, 102);
+    border: solid black 1px;
+    margin-top: 2px; 
+}
 h1, h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    margin-top: 0px;
 }
 
 p,
@@ -55,12 +62,12 @@ footer {
 .logincontainer {
     border: 2px solid rgb(235, 199, 102);
     background-color: rgb(235, 199, 102);
-    margin-top: 10px;
+    margin-top: 50px;
     margin-bottom: 10px;
     margin-left: 450px;
     margin-right: 250px;
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
  }
@@ -70,12 +77,16 @@ button {
     color: rgb(0, 0, 0);
     padding: 14px 20px;
     margin: 8px 0;
-    border: none;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
     cursor: pointer;
     align-items: center;
     width: 100px;
   }
 
+  #loginBtn{
+      border-radius: 10px;
+  }
 button:hover {
     opacity: 0.8;
   }
@@ -84,6 +95,7 @@ button:hover {
     width: auto;
     padding: 10px 18px;
     background-color: lightgrey;
+    border-radius: 10px;
 }
 
 #bg {
