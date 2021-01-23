@@ -29,6 +29,9 @@ $(document).ready(function () {
             //dynamically creating the DOM element and placing them in the DIV results
             // console.log("AJAX: "+response);
             var divCoupon=$("<div>");
+            var pTag=$("<p>");
+            pTag.html('<i class="fas fa-list-alt" style="font-size:48px"></i>Results');
+            divCoupon.append(pTag);
             for (i=0;i<response.length;i++){
                 var div=$("<div>");
                 // create dynamic button with the store name, click event will be check with attribute DATA-STORE
@@ -77,7 +80,7 @@ $(document).ready(function () {
             method: "GET"
         }).then(function (response) {
             console.log(response);
-            $("#brand").text(storeName+" Locations");
+            $("#brand").html('<i class="fas fa-store" style="font-size:48px"></i>Store Locations');
             $(".storeLocRes").empty();
             for (i=0;i<response.results.length;i++){
                 console.log(i+":"+response.results[i].address.freeformAddress);
@@ -100,8 +103,7 @@ $(document).ready(function () {
                 phone.addClass("storePhone");
                 url.addClass("storeUrl");
                 div.append(address, phone, url);
-                $(".storeLocRes").append(div);
-                
+                $(".storeLocRes").append(div); 
             };
         });
     };
