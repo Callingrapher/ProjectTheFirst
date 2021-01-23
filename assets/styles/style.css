@@ -1,7 +1,6 @@
 html, 
 body{
     height:100%;
-    background-color: white
 }
 
 header {
@@ -35,21 +34,29 @@ section {
     height: 100%;
 }
 
+ol {
+    margin-top: 50px;
+    font-size: 12pt;
+    width: 260px;
+    border: solid 2px grey;
+    border-radius: 10px;
+    padding: 5px
+}
+
 footer {
-    position: fixed;
+   /* position: fixed;*/
     left: 0;
     bottom: 0;
     text-align: center;
     width: 100%;
-    background-color: rgb(168, 203, 233);
+    background-color: rgb(179, 215, 247);
     border: solid black 1px;
-    /* float: bottom;  */
-    margin-top: 350px;
+    float: bottom;
 }
 
 .brand, .results, .city {
     border: solid grey 2px;
-    background-color: rgb(214, 214, 185);
+    background-color: rgb(236, 236, 211);
     opacity: 90%;
     height: 70vh;
 }
@@ -72,8 +79,7 @@ footer {
 
 .card {
     color: black;
-    background-color:  rgb(157, 158, 157);
-    overflow: scroll;
+    background-color:  rgb(193, 194, 193);
 }
 
 .storeLoc {
@@ -86,138 +92,28 @@ footer {
     overflow: scroll;
 }
 
-/*Log in styling*/
-
-.logincontainer{
-    border: 4px solid rgb(164, 210, 250);;
-    text-align: center;
-    color: orange;
-    width: 50%;
-    margin-left: 200px;
-    margin-top: 20px;
-    padding-bottom: 30px;
-}
-
-.loginbox{
-    font-size: 28px;
-}
-
-.loginBtn{
-    color: orange;
-    text-align: center;
-    border: 3px solid gray ;
-    background-color: gray;
-    padding: 10px;
-    padding-right: 100px;
-    padding-left: 100px;
-    margin-bottom: 5px ;
-    margin-top: 20px;
-
-}
-.loginBtn2{
-    color: orange;
-    text-align: center;
-    border: 3px solid gray ;
-    background-color: gray;
-    padding: 10px;
-    padding-right: 50px;
-    padding-left: 40px;
-    margin-bottom: 15px ;
-    margin-top: -35px
-}
-
-.Email{
-    border: 1px solid gray;
-    padding-right: 400px;
-    padding-bottom: 10px;
-    color: gray;
-    
-   
-}
-
-.Password{
-    border: 1px solid gray;
-    padding-right: 370px;
-    padding-bottom: 10px;
-    color: gray; 
-}
-
-h4{
-    margin-bottom: -5px;
-    font-size: 22px;
-}
-
-#rememberMe {
-  display: inline-block;
-}
-
-
-.fas fa-check {
+.fas{
     font-size: 60px;
-   
+    color:rgb(51, 55, 104)
+}
+
+.fa-store,
+.fa-list-alt {
+    margin-top: 10px;
+    padding: 10px;
 }
 
 button {
-    border: 3px solid orange;
-    background: grey;
+    border: 3px solid rgb(223, 181, 104);
+    background: rgba(179, 174, 174, 0.295);
     margin-top: 10px;
+    padding: 10px;
     display: inline-block;
 }
 
 #btnSubmit {
-    margin-left: 50px;
+    margin-left: 25px;
     width: 260px;
-}
-
-/* Styling for contact.html*/
-
-.containerc{
-    background-color: white; padding: 25px; border:1px solid grey; font-size: 40px;margin-top: 80px;background-color: white; width:850px; padding-bottom: 0px; margin-left:40px; font-size: 28px;
-}
-
-.contactbox{
-        color: rgb(164, 210, 250);
-}
-.Name{
-    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px; margin-top: 10px;
-}
-
-.Emailc{
-    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:555px; color: lightgrey; margin-left: 15px;padding-bottom: 10px;
-}
-
-.Message{
-    border: 1px solid grey;font-size:16px;padding: 10px; padding-right:500px; color: lightgrey; margin-left: 20px;padding-bottom: 100px; margin-top: 10px; font-size: 22px;
-}
-
-
-#submit{
-    border: 1px solid grey; font-size: 20px; padding:20px; padding-right:20px; padding-top:10px; background-color: rgb(164, 210, 250); text-align: center; margin-top:10px; margin-left:10px;
-}
-
-.col-md-12{
-    font-size: 22px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-}
-
-.col-lg-12{
-    padding-left: 10px;
-    font-size: 22px;
-    padding-bottom: 20px;
-    margin-top: 20px;
-    
-}
-
-#Submit{
-    background-color: rgb(164, 210, 250);
-    border: 3px solid rgb(164, 210, 250);
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 200px;
-    
 }
 
 #bg {
