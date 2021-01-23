@@ -51,7 +51,7 @@ footer {
     border: solid grey 2px;
     background-color: rgb(214, 214, 185);
     opacity: 90%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .city {
@@ -82,7 +82,7 @@ footer {
 
 .storeLocRes {
     width: 90%;
-    height: 80%;
+    height: 62vh;
     overflow: scroll;
 }
 

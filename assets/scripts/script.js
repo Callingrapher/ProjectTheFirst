@@ -78,11 +78,19 @@ $(document).ready(function () {
             method: "GET"
         }).then(function (response) {
             console.log(response);
+            $("#brand").text(storeName+" Locations");
             $(".storeLocRes").empty();
             for (i=0;i<response.results.length;i++){
+                console.log(i+":"+response.results[i].address.freeformAddress);
                 var div=$("<div>");
                 var address= $("<p>").text(response.results[i].address.freeformAddress);
-                var phone=$("<p>").text(response.results[i].poi.phone);
+                if (response.results[i].poi===undefined){
+                    var phone=$("<p>").text("No Phone available");
+                } else if (response.results[i].poi.phone===undefined){
+                    var phone=$("<p>").text("No Phone available");
+                } else {
+                    var phone=$("<p>").text("Phone: "+response.results[i].poi.phone);
+                };
                 if (response.results[i].poi.url===undefined){
                     var url=$("<p>").text("No Website Available");
                 } else {
@@ -91,6 +99,7 @@ $(document).ready(function () {
                 };
                 div.append(address, phone, url);
                 $(".storeLocRes").append(div);
+                
             };
         });
     };

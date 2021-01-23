@@ -56,14 +56,15 @@ A simple web app to retrieve data about coupons offered by chain stores in the c
 
 ## Credits
 
-Collaborators: Imani Dillahunt [https://github.com/imanid-code]
-               Matthew Eggleston [https://github.com/Callingrapher]
-               Samantha Lisk [https://github.com/smlisk0630]
-               Michel Nhouyvanisvong [https://github.com/nhounhou]
+Collaborators:  
+- Imani Dillahunt [https://github.com/imanid-code]  
+- Matthew Eggleston [https://github.com/Callingrapher]  
+- Samantha Lisk [https://github.com/smlisk0630]  
+- Michel Nhouyvanisvong [https://github.com/nhounhou]
 
 * If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
 
-8 Coupons [https://www.8coupons.com/api/getapi]
+Kuponiko [https://rapidapi.com/var-che/api/kuponiko/endpoints]  
 Tom Tom [https://developer.tomtom.com/maps-sdk-web-js-public-preview/tutorials-use-cases/store-locator]
 
 * Background image sourced from:  
