@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Coupon Finder</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"> 
     <link rel="stylesheet" type="text/css" href="./assets/styles/foundation.css">
     <link rel="stylesheet" type="text/css" href="./assets/styles/contact.css">
   </head>
 
   <header>
-    <i class="far fa-eye" style=" font-size: 75px; color: rgb(167, 165, 165)"></i>
     <h1>Find the best deals in a town near you!</h1>
   </header>
 
@@ -30,13 +29,10 @@
 
     <section class="container">
         <form action="action_page.php" method="post">
-            <div class="imgcontainer">
-                <img src="img_avatar2.png" alt="Avatar" class="avatar">
-            </div>
             
             <div class="container">
                 <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <input type="text" placeholder="Enter Username" name="uname" class="username" required>
         
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
@@ -47,7 +43,7 @@
                 </label>
             </div>
             
-            <div class="wrapper" style="background-color:#f1f1f1">
+            <div class="wrapper" style="background-color:none; margin-left: 3%;">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <button type="button" class="cancelbtn">Forgot <a href="#">password?</a></button>
             </div>

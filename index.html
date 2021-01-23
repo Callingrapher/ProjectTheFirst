@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>Coupon Finder</title>
+  <link rel="stylesheet" type="text/css" href="assets/styles/reset.css"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,7 +14,6 @@
 </head>
 ​
 <header>
-  <!--<i class="far fa-eye" style=" font-size: 75px; color: rgb(167, 165, 165)"></i>-->
   <h1>Find the best deals in a town near you!</h1>
 </header>
 
@@ -39,57 +39,32 @@
             <div class="grid-container">
               <div class="grid-x grid-padding-x">
                 <div class="medium-6 cell">
-                  <label>
-                    <!-- <input type="text" placeholder="Search for City">
-                    <input type="text" placeholder="Search by City"> -->
-                  </label>
+                  
                   <button id="btnSubmit"><i class="fas fa-funnel-dollar" style="font-size:48px"></i>Search Coupons</button>
-                  <div class="StoreList"></div>
+                  
+                    <ol>
+                      <li><i class="far fa-hand-point-right"></i>Click "Search Coupons"</li>
+                      <li><i class="far fa-hand-point-right"></i>The list of store brands offering coupons will display.</li>
+                      <li><i class="far fa-hand-point-right"></i>Click on the name of the store you're interested in.</li>
+                      <li><i class="far fa-hand-point-right"></i>The locations of that store will appear.</li>
+                    </ol>
+                
                 </div>
               </div>
             </div>
           </form>
         </div>
-
-        ​
-        <!-- <div class="cell medium-6 large-4 frame" id="Results">Results</div> -->
-        ​
-        <!-- <div class="cell medium-6 large-4" id="searchByBrand">Search by Brand
-          <form>
-            <div class="grid-container">
-              <div class="grid-x grid-padding-x">
-                <div class="medium-6 cell">
-                  <label>
-                    
-                  </label>
-                </div>
-              </div>
-            </div>
-          </form>
-
-        </div> -->
       </div>
     </div>
     ​
     </div>
   </section>
 
-  <section class="grid-container cell medium-6 large-4 frame results results"><i class="fas fa-list-alt"
-      style="font-size:48px"></i>Results</section>
-
+  <section class="grid-container cell medium-6 large-4 frame results"><i class="fas fa-list-alt" style="font-size:48px"></i>Results</section>
+  
   <section class="grid-container cell medium-6 large-4 frame brand">
-    <form>
-      <button id="btnStore"><i class="fas fa-store" style="font-size:48px"></i>Search Stores</button>
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x">
-          <div class="medium-6 cell storeLoc">
-            <label>
-              <input type="text" placeholder="Search">
-            </label>
-          </div>
-        </div>
-      </div>
-    </form>
+
+    <p id="brand"><i class="fas fa-store" style="font-size:48px"></i>Store Locations</p>
     <section class="grid-container storeLocRes">
     </section>
   </section>
