@@ -11,7 +11,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/styles/contact.css">
   </head>
 
-  <header>
+  <header id="loginhead">
     <h1>Find the best deals in a town near you!</h1>
   </header>
 
@@ -27,7 +27,7 @@
         <img src="assets/images/coupons.png">
     </div>
 
-    <section class="container">
+    <section class="logincontainer">
         <form action="action_page.php" method="post">
             
             <div class="container">
@@ -37,16 +37,17 @@
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
             
-                <button type="submit">Login</button>
+                <button type="submit" id="loginBtn">Login</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
-            </div>
+            
             
             <div class="wrapper" style="background-color:none; margin-left: 3%;">
                 <button type="button" class="cancelbtn">Cancel</button>
                 <button type="button" class="cancelbtn">Forgot <a href="#">password?</a></button>
             </div>
+          </div>
         </form> 
     </section>
 
