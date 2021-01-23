@@ -24,16 +24,12 @@ A simple web app to retrieve data about coupons offered by chain stores in the c
 
 ## Table of Contents (Optional)
 
-* [Installation](#installation)
 * [User Stories](#user)
 * [Usage](#usage)
 * [Credits](#credits)
 * [Features](#features)
 * [Contributing](#contribute)
 * [Tests](#tests)
-
-
-## Installation
 
 
 ## User Stories
@@ -45,7 +41,10 @@ A simple web app to retrieve data about coupons offered by chain stores in the c
 
 ## Usage 
 
-* Provide instructions and examples for use. Include screenshots as needed. 
+Click "Search Coupons"
+The list of store brands offering coupons will display.
+Click on the name of the store you're interested in.
+The locations of that store will appear.
 
 * To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -101,11 +100,9 @@ SOFTWARE.
 
 ---
 
-* 🏆 The sections listed above are the minimum for a good README, but your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
 ## Features
 
-* If your project has a lot of features, consider adding a heading called "Features" and listing them there.
+* We have preemptively added login and contact pages ahead of capital investment.  The login page would allow Subscribers access to
 
 ## Contributing
 
