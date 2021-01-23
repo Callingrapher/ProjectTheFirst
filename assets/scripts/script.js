@@ -42,7 +42,6 @@ $(document).ready(function () {
                 };
             $(".results").append(divCoupon);
         });
-
     };
     
     // When the Search Coupons button is clicked, getCoupon() is called
